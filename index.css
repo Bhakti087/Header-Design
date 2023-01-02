@@ -3,6 +3,16 @@
     padding: 0;
     font-family: 'poppins' , 'san serif';
     box-sizing: border-box;
+    
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
 }
 
 .hero{
@@ -21,6 +31,8 @@ nav{
 
 ul a{
     text-decoration: none;
+    color: #fff;
+   
 
 }
 ul{
@@ -32,9 +44,34 @@ ul{
 ul li{
     justify-content: space-between;
     padding: 10px 40px;
+    list-style: none;
 }
 
-img{
+.menu{
     width: 25px;
     margin-right: 20px;
+}
+
+.logo{
+    width:140px;
+}
+.lamp{
+    width:250px;
+    margin-left: 300px;
+    margin-top: -100px;
+}
+.info{
+    display: flex;
+    
+    
+}
+.texth1{
+font-family: 'DM Sans', sans-serif;
+padding: 100px , 100px;
+margin-left: 300px;
+margin-top: 150px;
+
+}
+span{
+    line-height: 10px;
 }
